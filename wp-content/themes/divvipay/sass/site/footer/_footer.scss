@@ -1,0 +1,22 @@
+.site-footer { //(0,0,1,0)
+	text-align: center;
+	padding: 1em;
+	font-family: $font__sans;
+	color: #fff;
+	background-color:red ;
+.footer-widget-wrap{ //(0,0,2,0)
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 1rem;
+@media only screen and (max-width: $query__big-medium) and (min-width: $query__medium) {
+		grid-template-columns: repeat(2,1fr);
+		#custom_html-4{ //(0,1,2,0)
+			grid-column:1/-1;
+	justify-self: center;
+		}
+	}
+	@media screen and (max-width: $query__small){
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+}

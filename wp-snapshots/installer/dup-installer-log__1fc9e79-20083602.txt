@@ -1,0 +1,346 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:28:02
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.2                                 |7.4.2
+OS__________________: Darwin                                |Darwin
+CREATED_____________: 2020-03-20 08:36:02
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 5.7.26
+DB TABLES___________: 13
+DB ROWS_____________: 447
+DB FILE SIZE________: 896KB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/divvipay"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/divvipay/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "divvipay_1fc9e7950e4692bb8602_20200320083602_archive.zip"
+SIZE________________: 58.58MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Applications/MAMP/htdocs/divvipay/divvipay_1fc9e7950e4692bb8602_20200320083602_archive.zip' -d '/Applications/MAMP/htdocs/divvipay' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:28:16 - RUNTIME: 14.8494 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:29:19
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 5.7.26
+FILE SIZE:	dup-database__1fc9e79-20083602.sql (185.02KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/divvipay/dup-installer/dup-installer-data__1fc9e79-20083602.sql]
+COLLATE FB:	On
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/Applications/MAMP/htdocs/divvipay/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	463
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (139)
+wp_postmeta: (159)
+wp_posts: (84)
+wp_term_relationships: (14)
+wp_term_taxonomy: (4)
+wp_termmeta: (0)
+wp_terms: (4)
+wp_usermeta: (32)
+wp_users: (2)
+Removed '8' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3425 sec.
+STEP-2 COMPLETE @ 08:29:19 - RUNTIME: 0.3495 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:29:34
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Divvipay"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/Applications/MAMP/htdocs/divvipay"
+path_new______________: "/Applications/MAMP/htdocs/divvipay"
+siteurl_______________: "http://localhost:8888/divvipay"
+url_old_______________: "http://localhost:8888/divvipay"
+url_new_______________: "http://localhost:8888/divvipay"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "divi"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "divvipay"
+wp_mail_______________: "divvipay@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   139][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   159][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    84][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"\Applications\MAMP\htdocs\divvipay" ==============> "/Applications/MAMP/htdocs/divvipay"
+	SEARCH  2:"\\Applications\\MAMP\\htdocs\\divvipay" ==========> "\/Applications\/MAMP\/htdocs\/divvipay"
+	SEARCH  3:"%5CApplications%5CMAMP%5Chtdocs%5Cdivvipay" ======> "%2FApplications%2FMAMP%2Fhtdocs%2Fdivvipay"
+	SEARCH  4:"https://localhost:8888/divvipay" =================> "http://localhost:8888/divvipay"
+	SEARCH  5:"https:\/\/localhost:8888\/divvipay" ==============> "http:\/\/localhost:8888\/divvipay"
+	SEARCH  6:"https%3A%2F%2Flocalhost%3A8888%2Fdivvipay" =======> "http%3A%2F%2Flocalhost%3A8888%2Fdivvipay"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:439 	|	 Cells:3369 
+UPDATED:	Tables:0 	|	 Rows:0 	|	 Cells:0 
+ERRORS:		0 
+RUNTIME:	0.062000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'divvipay' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""divi""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__1fc9e79-20083602' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:29:34 - RUNTIME: 0.1481 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'divvipay' already exists in the database.  Unable to create new account.
+
+
+====================================
