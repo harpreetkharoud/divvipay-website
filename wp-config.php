@@ -45,7 +45,7 @@ define('WP_PROXY_HOST', 'proxy.langara.bc.ca');
 define('WP_PROXY_PORT', '8080');
 define('WP_PROXY_BYPASS_HOSTS', 'localhost');
 
-define( 'DB_NAME', "divi" );
+define( 'DB_NAME', "divvipay" );
 
 
 /** MySQL database username */
